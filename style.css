@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.BodyContainer{
+    background: #f3f1f1;
+    height: 100vh;
+}
+.TitleContainer{
+    height: 10vh;
+    background: #000;
+}
+.Title{
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background: #fff;
+}
+.Title > .a{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background: #ee6ba8;
+    height: 50%;
+    width: 10%;
+    box-shadow: 2px 5px 3px  rgba(0,0,0,.3);
+}
+.Title > .a:hover{
+    box-shadow: 2px 5px 30px  rgba(0,0,0,.5);
+    background: #1ab373;
+}
+.home{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background: #ee6ba8;
+    height: 50%;
+    width: 10%;
+    box-shadow: 2px 5px 3px  rgba(0,0,0,.3);
+}
+.btn{
+    position: absolute;
+    background: #fff;
+    height: 60px;
+    width: 10%;
+    left: 80%;
+    bottom: 92%;
+}
+.BodyOne{
+    background: #0d0b96;
+    height: 90vh;
+}
